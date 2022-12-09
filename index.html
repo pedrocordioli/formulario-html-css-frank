@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Formulariozinho</h1>
+    <center><h1>Formulário</h1></center>
 
     <form action="#" method="post">
         <p>
@@ -37,10 +37,13 @@
             <input type="radio" value="pequeno" name="camiseta">P
             <input type="radio" value="médio" name="camiseta" checked>M
             <input type="radio" value="grande" name="camiseta">G
+            <input type="radio" value="exgrande" name="camiseta">GG
         </p>
         <p>
-            <select name="calcado">
+            <select class="calcado" name="calcado">
                 <option value="">Tamanho do Calçado</option>
+                <option value="42">38</option>
+                <option value="42">39</option>
                 <option value="42">40</option>
                 <option value="43">41</option>
                 <option value="44">42</option>
@@ -91,8 +94,8 @@
             <input type="week">
 
         <p>
-            <button type="submit">Salvar</button>
-            <button type="reset">Limpar</button>
+            <button class="btn" type="submit">Salvar</button>
+            <button class="btn" type="reset">Limpar</button>
         </p>
     </form>
 </body>
